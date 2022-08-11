@@ -3,8 +3,10 @@
   contents:
     - name: Full Name
       value: Rhys Edward Andrew Goodall
-    # - name: Date of Birth
-    #   value: 14th March 1879
+    - name: Hometown
+      value: London
+    - name: Currently
+      value: San Francisco Bay Area
     - name: Languages
       value: English
 
@@ -14,84 +16,33 @@
     - title: PhD
       institution: Jesus College, University of Cambridge, Cambridge, UK
       year: 2018-2022
-      # description:
-      #   - Description 1.
-      #   - Description 2.
-      #   - title: Description 3.
-      #     contents:
-      #       - Sub-description 1.
-      #       - Sub-description 2.
+      description:
+        - Cavendish Laboratory Departmental Studentship - Full Award
+        - Research Fellowship Institute of Pure & Applied Mathematics, UCLA (2019)
     - title: MSci
       institution: Robinson College, University of Cambridge, Cambridge, UK
       year: 2014-2018
-      # description:
-        # - Description 1.
-        # - Description 2.
+      description:
+        - Cavendish Laboratory Microsoft Research Prize (2018)
+        - Robinson College Warden's Prize (2018)
+        - Robinson College Mathers' Prize (2018)
+        - NERC Research Experience Placement Grant (2017)
 
-# - title: Experience
-#   type: time_table
-#   contents:
-    # - title: Professor of Theoretical Physics
-    #   institution: Institute for Advanced Study, Princeton University
-    #   year: 1933 - 1955
-    #   description:
-    #     - Description 1.
-    #     - Description 2.
-    #     - title: Description 3.
-    #       contents:
-    #         - Sub-description 1.
-    #         - Sub-description 2.
-    # - title: Visiting Professor
-    #   institution: California Institute of Technology, Pasadena, California, US
-    #   year: 1933
-    #   description:
-    #     - Description 1.
-    #     - Description 2.
-
-    # - title: Director
-    #   institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-    #   year: 1917-1933
-
-    # - title: Professor of Theoretical Physics
-    #   institution: Karl-Ferdinand University, Prague, Czechoslovakia
-    #   year: 1911 - 1917
-    #   description:
-
-    # - title: Associate Professor of Theoretical Physics
-    #   institution: University of Zurich, Zurich, Switzerland
-    #   year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/CompRhys/aviary">aviary</a>
-      # year: Materials Informatics
-      description: The Wren sits on its Roost in the Aviary
-
-# - title: Honors and Awards
-#   type: time_table
-#   contents:
-#     - year: 1921
-#       items: 
-#         - Nobel Prize in Physics 
-#         - Matteucci Medal
-#     - year: 2029
-#       items: 
-#         - Max Planck Medal
+    - title: Machine Learning Scientist
+      institution: Chemix.ai
+      year: May 2022 - Present
+      description:
+        - Development of custom algorithms and models for AI accelerated battery R&D.
 
 - title: Academic Interests
-  type: nested_list
+  type: list
   contents:
-    - title: Machine Learning
-      # items: 
-      #   - Description 1.
-      #   - Description 2.
-    - title: Materials Informatics
-      # items:
-      #   - High-throughput Density Functional Theory
-      #   - Description 2.
+    - Machine Learning, Materials Informatics, Batteries.
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Water Polo, Dingy Sailing, Hiking.
+    - Water Polo, Dingy Sailing, Hiking, Public Transport.
