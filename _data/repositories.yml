@@ -4,3 +4,4 @@ github_users:
 github_repos:
   - comprhys/aviary
   - janosh/pymatviz
+  - materialsproject/pymatgen
